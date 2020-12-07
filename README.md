@@ -14,9 +14,7 @@ http://qifu.l-360pin-lib.surge.sh/
         ...
        <!-- Set a parent Container to include all degree images -->
         <div id="image-wrapper">
-
-            <!-- Set the default image to show -->
-            <!-- e.g. my default image is  "./whill/0.png" -->
+            <!-- Set the default image to show e.g. default image "./whill/0.png" -->
             <img id="first-display-img" src="./whill/0.png" />
         </div>
         ...
