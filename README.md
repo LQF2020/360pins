@@ -47,7 +47,7 @@ Then import 360pins lib and use it as follows,
         <!-- parent wrapper DOM -->
         $img_wrapper: document.getElementById("image-wrapper"),
 
-            <!-- default image DOM -->
+        <!-- default image DOM -->
         $first_display_img: document.getElementById(
             "first-display-img"
         ),
