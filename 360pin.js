@@ -59,6 +59,8 @@ function FullViewer({
             imgDOM.src = `${srcFolder}/${i}.png`;
             this.$image_wrapper.appendChild(imgDOM);
         }
+
+        this.$image_wrapper.style.opacity = "1";
     };
     this.$image_wrapper.onmousedown = function () {
         let startPoint = FullViewerUtils.getCurrXPos();

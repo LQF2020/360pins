@@ -4,7 +4,7 @@
 
 # DEMO
 
-http://qifu.l-360pin-lib.surge.sh/
+http://qiful.360pins.surge.sh/
 
 # How to use
 
@@ -39,7 +39,7 @@ Then import 360pins lib and use it as follows,
 ...
 ...
 <!-- import 360pins js file -->
-<script src="http://qifu.l-360pin-lib.surge.sh/360pin.min.js"></script>
+<script src="http://qiful.360pins.surge.sh/360pin.min.js"></script>
 
 <script>
     const config = {
