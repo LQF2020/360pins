@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>360 pin images</title>
+    </head>
+    <body>
+        <div id="image-wrapper">
+            <img id="first-display-img" src="./whill/0.png" />
+        </div>
+        <script src="http://qifu.l-360pin-lib.surge.sh/360pin.min.js"></script>
+        <script>
+            const config = {
+                $img_wrapper: document.getElementById("image-wrapper"),
+                $first_display_img: document.getElementById(
+                    "first-display-img"
+                ),
+                srcFolder: "./whill",
+                totalImgNum: 36,
+            };
+            const fullviewer = new FullViewer(config);
+            fullviewer.init();
+        </script>
+    </body>
+</html>
